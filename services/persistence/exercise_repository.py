@@ -1,9 +1,10 @@
 import sqlite3
 import streamlit as st
-from pathlib import Path
+import os
+import tempfile
 
-_DB_PATH = str(Path(__file__).parent.parent.parent / "data.db")
-
+DB_DIR = tempfile.gettempdir()
+_DB_PATH = os.path.join(DB_DIR, "data.db")
 
 
 @st.cache_resource
