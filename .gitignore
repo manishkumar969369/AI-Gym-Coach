@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# Virtual Environment
+# Virtual environments
 .venv/
 venv/
 env/
@@ -11,15 +11,15 @@ env/
 # Environment variables
 .env
 
-# Streamlit
-.streamlit/secrets.toml
+# OS files
+.DS_Store
+Thumbs.db
 
-# VS Code
-.vscode/
+# Database
+Main App/data.db
 
 # Logs
 *.log
 
-# OS files
-.DS_Store
-Thumbs.db
+# VS Code
+.vscode/

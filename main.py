@@ -70,7 +70,8 @@ def main():
             plan_reps = st.number_input("Reps per Set",min_value=0,max_value=50,step=1,key="plan_reps")
 
             st.markdown("")
-
+            # Start button
+            
             start_session_button = st.button("Start Session",width='stretch',key="start_session_button")
 
             if start_session_button:
