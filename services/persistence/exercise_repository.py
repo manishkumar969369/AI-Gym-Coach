@@ -14,6 +14,11 @@ def _get_connection():
     return conn
 
 def init_db():
+    
+    # print("Database path:", _DB_PATH)
+    conn = _get_connection()
+    ...
+
     conn= _get_connection()
 
     with conn:
